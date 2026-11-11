@@ -1,0 +1,12 @@
+{
+  "name": "epson-whatsapp-sender",
+  "private": true,
+  "version": "1.0.0",
+  "description": "WhatsApp bulk sender admin dashboard on the official Meta WhatsApp Cloud API with Supabase.",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "devDependencies": {
+    "@netlify/edge-functions": "^2.11.0"
+  }
+}

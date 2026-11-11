@@ -1,0 +1,14 @@
+# Supabase CLI config for the Edge Functions in this folder.
+
+project_id = "epson-whatsapp-sender"
+# These functions verify the caller themselves (admin session, cron secret, or
+# Meta's webhook signature), so gateway-level JWT verification is turned off.
+
+[functions.send-campaign]
+verify_jwt = false
+
+[functions.whatsapp-webhook]
+verify_jwt = false
+
+[functions.whatsapp-admin]
+verify_jwt = false
